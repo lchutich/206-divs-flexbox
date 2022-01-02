@@ -115,18 +115,22 @@ body {
   justify-content: space-between;
 }
 
-.div-1, .div-2, .div-3 {
+.div-1, .div-2, .div-3  {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #f2f2f2;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background-color: #2e2eb8;
+  height: auto;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
-}
+  border-right:0.25em solid #222;
+  border-left:0.15em solid #222;
+  padding: 0em 0.89em 0 0.89em;  
+  }
+
 
 
 
